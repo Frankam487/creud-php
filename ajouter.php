@@ -10,6 +10,12 @@
     </style>
 </head>
 <body>
+
+<?php
+if(isset($_POST['btn'])){
+  echo "cc";
+}
+?>
     <div class="container">
         <form class="form">
             <h2>Inscription</h2>
@@ -25,7 +31,7 @@
                 <label for="age">Âge</label>
                 <input type="number" id="age" name="age" required>
             </div>
-            <button type="submit">Envoyer</button>
+            <button name="btn"  type="submit">Envoyer</button>
         </form>
         
     </div>

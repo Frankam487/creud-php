@@ -52,6 +52,7 @@ echo "ya pas encore demploye";
   <td><?= $row['nom']?></td>
   <td><?= $row['nom']?></td>
   <td><a href="modifier.php?id=<?=$row['id']?>">Modif</a></td>
+  <td><a href="supprimer.php?id=<?=$row['id']?>">Supp</a></td>
 </tr>
 <?php
 }
